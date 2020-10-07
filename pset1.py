@@ -11,7 +11,7 @@ def check_prime(n1: int) -> bool:
         
     return True
 
-def backwards_read_prime(n1: int, n2: int) -> list:
+def backwardsPrime(n1: int, n2: int) -> list:
     assert(0 < n1 < n2)
     
     backwards_primes = []
